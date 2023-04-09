@@ -1,0 +1,233 @@
+{
+
+    "orientations": ["portrait", "landscape"],
+
+    "artists": ["Van Gogh", "Picasso", "Monet", "Da Vinci", "Dali", "Warhol", "Klimt", "Hokusai"],
+
+    "objects": ["cat", "giraffe", "sunset", "cityscape", "robot", "flower", "spaceship", "mountain"]
+
+}
+
+{
+
+    "orientations": [
+
+        "portrait",
+
+        "landscape",
+
+        "square",
+
+        "panoramic",
+
+        "isometric",
+
+        "cubist",
+
+        "top-down",
+
+        "three-quarter view"
+
+    ],
+
+    "artists": [
+
+        "Van Gogh",
+
+        "Picasso",
+
+        "Monet",
+
+        "Da Vinci",
+
+        "Dali",
+
+        "Warhol",
+
+        "Klimt",
+
+        "Hokusai",
+
+        "Banksy",
+
+        "Basquiat",
+
+        "Cezanne",
+
+        "Chagall",
+
+        "Degas",
+
+        "Escher",
+
+        "Frida Kahlo",
+
+        "Gauguin",
+
+        "Georgia O'Keeffe",
+
+        "Goya",
+
+        "Jackson Pollock",
+
+        "Magritte",
+
+        "Matisse",
+
+        "Michelangelo",
+
+        "Modigliani",
+
+        "Norman Rockwell",
+
+        "Raphael",
+
+        "Rembrandt",
+
+        "Renoir",
+
+        "Rothko",
+
+        "Roy Lichtenstein",
+
+        "Seurat",
+
+        "Toulouse-Lautrec",
+
+        "Turner",
+
+        "Vermeer",
+
+        "Whistler"
+
+    ],
+
+    "objects": [
+
+        "cat",
+
+        "giraffe",
+
+        "sunset",
+
+        "cityscape",
+
+        "robot",
+
+        "flower",
+
+        "spaceship",
+
+        "mountain",
+
+        "forest",
+
+        "beach",
+
+        "castle",
+
+        "skyscraper",
+
+        "bridge",
+
+        "waterfall",
+
+        "river",
+
+        "desert",
+
+        "volcano",
+
+        "car",
+
+        "airplane",
+
+        "train",
+
+        "bicycle",
+
+        "elephant",
+
+        "whale",
+
+        "dolphin",
+
+        "shark",
+
+        "lion",
+
+        "tiger",
+
+        "bear",
+
+        "wolf",
+
+        "eagle",
+
+        "owl",
+
+        "penguin",
+
+        "peacock",
+
+        "chameleon",
+
+        "octopus",
+
+        "statue",
+
+        "painting",
+
+        "fountain",
+
+        "maze",
+
+        "pyramid",
+
+        "sculpture",
+
+        "garden",
+
+        "book",
+
+        "camera",
+
+        "telescope",
+
+        "microscope",
+
+        "computer",
+
+        "smartphone",
+
+        "watch",
+
+        "instrument",
+
+        "piano",
+
+        "guitar",
+
+        "violin",
+
+        "drums",
+
+        "saxophone",
+
+        "flute",
+
+        "trumpet",
+
+        "harmonica",
+
+        "accordion",
+
+        "cello",
+
+        "harp",
+
+        "ukulele"
+
+    ]
+
+}
