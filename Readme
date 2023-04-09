@@ -1,0 +1,13 @@
+# DALL-E Prompt Generator
+
+This is a simple Python script to generate DALL-E prompts based on user-defined input.
+
+## Usage
+
+1. Clone the repository.
+2. Modify the `dalle_prompt_data.json` file to include your desired orientations, artists, and objects.
+3. Run `dalle_prompt_generator.py` and enter the number of prompts you'd like to generate.
+
+## Requirements
+
+- Python 3.6 or later
