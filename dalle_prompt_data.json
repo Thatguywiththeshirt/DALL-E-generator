@@ -1,14 +1,6 @@
-{
 
-    "orientations": ["portrait", "landscape"],
 
-    "artists": ["Van Gogh", "Picasso", "Monet", "Da Vinci", "Dali", "Warhol", "Klimt", "Hokusai"],
 
-    "objects": ["cat", "giraffe", "sunset", "cityscape", "robot", "flower", "spaceship", "mountain"]
-
-}
-
-{
 
     "orientations": [
 
