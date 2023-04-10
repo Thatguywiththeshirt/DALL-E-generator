@@ -25,16 +25,13 @@ def load_data(filename):
         return None
 
 def generate_dalle_prompt(data):
-
     orientation = random.choice(data['orientations'])
-
     artist = random.choice(data['artists'])
+    object_ = random.choice(data['objects'])
+    medium = random.choice(data['mediums'])
+    
+    return f"{medium} {orientation} in the style of {artist} of a {object_}"
 
-    obj = random.choice(data['objects'])
-
-    prompt = f'{orientation} in the style of {artist} featuring a {obj}'
-
-    return prompt
 
 def main(data, num_prompts):
 
