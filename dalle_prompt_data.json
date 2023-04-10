@@ -220,6 +220,52 @@
 
         "ukulele"
 
+    ],
+
+    "mediums": [
+
+        "photo",
+
+        "poster",
+
+        "canvas on oil",
+
+        "watercolor",
+
+        "charcoal",
+
+        "ink",
+
+        "pastel",
+
+        "acrylic",
+
+        "digital",
+
+        "collage",
+
+        "mixed media",
+
+        "etching",
+
+        "lithograph",
+
+        "screen print",
+
+        "woodcut",
+
+        "bronze sculpture",
+
+        "stone sculpture",
+
+        "ceramic",
+
+        "glass",
+
+        "mosaic"
+
     ]
+
+
 
 }
