@@ -2,60 +2,65 @@ import json
 
 import random
 
+
 def load_data(filename):
 
-    try:
+	try:
 
-        with open(filename, 'r') as file:
+		with open(filename, 'r') as file:
 
-            data = json.load(file)
+			data = json.load(file)
 
-        return data
+		return data
 
-    except FileNotFoundError:
+	except FileNotFoundError:
 
-        print(f"Error: {filename} not found.")
+		print(f"Error: {filename} not found.")
 
-        return None
+		return None
 
-    except json.JSONDecodeError:
+	except json.JSONDecodeError:
 
-        print(f"Error: Invalid JSON in {filename}.")
+		print(f"Error: Invalid JSON in {filename}.")
 
-        return None
+		return None
+
 
 def generate_dalle_prompt(data):
     orientation = random.choice(data['orientations'])
     artist = random.choice(data['artists'])
     object_ = random.choice(data['objects'])
     medium = random.choice(data['mediums'])
-    
-    return f"{medium} {orientation} in the style of {artist} of a {object_}"
+    color = random.choice(data['color'])
+
+    return f"A {orientation} {medium} in the style of {artist}, featuring a {object_} with a {color} color scheme."
+
+
 
 
 def main(data, num_prompts):
 
-    for _ in range(num_prompts):
+	for _ in range(num_prompts):
 
-        print(generate_dalle_prompt(data))
+		print(generate_dalle_prompt(data))
+
 
 if __name__ == '__main__':
 
-    data = load_data('dalle_prompt_data.json')
+	data = load_data('dalle_prompt_data.json')
 
-    if data:
+	if data:
 
-        try:
+		try:
 
-            num_prompts = int(input('Enter the number of prompts to generate: '))
+			num_prompts = int(input('Enter the number of prompts to generate: '))
 
-            if num_prompts < 1:
+			if num_prompts < 1:
 
-                raise ValueError
+				raise ValueError
 
-            main(data, num_prompts)
+			main(data, num_prompts)
 
-        except ValueError:
+		except ValueError:
 
-            print("Error: Please enter a positive integer.")
-
+			print("Error: Please enter a positive integer.")
