@@ -1,6 +1,6 @@
 
-{
 
+{
 
     "orientations": [
 
@@ -220,6 +220,90 @@
 
         "ukulele"
 
+        ],
+	
+    "color": [
+		
+         "Monochromatic",
+		
+         "Analogous",
+		
+         "Complementary",
+		
+         "Triadic",
+         
+		 "Split-complementary",
+		
+         "Tetradic",
+		
+         "Neutral",
+		
+		 "Midnight Blues",
+		
+         "Autumn Leaves",
+		
+         "Golden Hour",
+		
+         "Cherry Blossom",
+		
+         "Serene Seas",
+		
+         "Desert Sands",
+		
+         "Summer Sunrise",
+		
+         "Rose Garden",
+		
+         "Enchanted Forest",
+		
+         "Fiery Inferno",
+		
+         "Snowy Peaks",
+		
+         "Sunset Glow",
+		
+         "Rustic Charm",
+		
+         "Ocean Breeze",
+		
+         "Candy Crush",
+		
+         "Cosmic Blast",
+		
+         "Lavender Fields",
+		
+         "Urban Jungle",
+		
+         "Lemon Sorbet",
+		
+         "Emerald Isle",
+		
+         "Warm",
+		
+         "Cool",
+		
+         "Pastel",
+		
+         "Bold",
+		
+         "Earthy",
+		
+         "Metallic",
+		
+         "Rainbow",
+		
+         "High contrast",
+		
+         "Muted",
+		
+         "Vintage",
+		
+         "Gradient",
+		
+         "Oceanic",
+		
+         "Neon"
+		
     ],
 
     "mediums": [
@@ -264,8 +348,6 @@
 
         "mosaic"
 
-    ]
-
-
+	]
 
 }
